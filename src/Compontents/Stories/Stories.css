@@ -1,0 +1,72 @@
+
+.stories-div {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 4rem;
+}
+.card{
+    min-width: 18rem;
+    width:30rem;
+    padding: 2rem;
+    background-color: white;
+    border: 2px solid black;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.card h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(56, 55, 55);
+}
+.card p{
+    font-size: 1.1rem;
+ color: rgb(102, 101, 101);
+letter-spacing: 1px;
+word-spacing: 3.5px;
+}
+span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-button a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+}
+.card-button .remove{
+    color: rgb(221, 22, 22);
+}
+
+
+/* media query */
+@media (max-width:768px){
+    .stories-div{
+        overflow-x: hidden;
+    }
+  .card{
+    width: 18rem;
+  }
+   .card h2{
+      font-size:1.3rem;
+    }
+    .card p{
+        font-size:1rem;
+      }
+      a{
+          font-size: 1.1rem;
+      }
+}

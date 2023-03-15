@@ -1,0 +1,20 @@
+.serch-box h2{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.336);
+}
+    form input{
+        width: 28rem;
+        padding: .8rem 1rem;
+        border-radius: 5px;
+        color:rgb(29, 28, 28);
+        margin: auto;
+        display: block;
+        outline: none;
+        border: none;
+        background-color: white;
+        font-size: 1.2rem;
+    }
